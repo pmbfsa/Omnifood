@@ -4,7 +4,7 @@
 - Fonts: https://fonts.google.com/
 - Colors: https://yeun.github.io/open-color/
 - Contrast: https://coolors.co/ (Tool Contrast Checker)
-- Icons: https://heroicons.com/
+- Icons: https://heroicons.com/ or https://ionic.io/ionicons
 - Images: https://unsplash.com/pt-br
 - Photos: https://uifaces.co/
 - Tints & Shades: https://maketintsandshades.com/
@@ -21,7 +21,7 @@
 Primary: #e67e22
 Tints: #f8d8bd #fae5d3
 Shades: #cf711f
-Accents:
+Accents: #69db7c #a9e34b #ffd43b
 Greys: #888 #555 #333
 
 --- 05 - SHADOWS
@@ -54,6 +54,10 @@ body {
   color: #555;
 }
 
+strong {
+  font-weight: 500;
+}
+
 /*******************************/
 /* GENERAL REUSABLE COMPONENTS */
 /*******************************/
@@ -84,10 +88,6 @@ body {
 
 .grid--center-v {
   align-items: center;
-}
-
-.margin-right-sm {
-  margin-right: 1.6rem !important;
 }
 
 .heading-primary,
@@ -161,4 +161,35 @@ body {
 .btn--outline:active {
   background-color: #fae5d3;
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding: 2px;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+/******************/
+/* HELPER CLASSES */
+/******************/
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
 }
