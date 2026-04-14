@@ -19,10 +19,10 @@
 --- 02 - COLORS
 
 Primary: #e67e22
-Tints: #f8d8bd #fae5d3
+Tints: #fae5d3 #fdf2e9
 Shades: #cf711f
 Accents: #69db7c #a9e34b #ffd43b
-Greys: #888 #555 #333
+Greys: #6F6F6F #888 #555 #333
 
 --- 05 - SHADOWS
 
@@ -159,7 +159,7 @@ strong {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fae5d3;
+  background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #fff;
 }
 
