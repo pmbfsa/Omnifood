@@ -486,9 +486,6 @@
 
   display: grid;
   grid-template-columns: 2fr 1fr;
-
-  /* temp */
-  height: 50rem;
 }
 
 .cta *:focus {

@@ -13,7 +13,7 @@
 
 - Font sizes (px): 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 - Font weights: 400*, 500, 600, 700
-- Line heights: 1*, 1.05, 1.2, 1.6
+- Line heights: 1*, 1.05, 1.2, 1.6, 1.8
 - Letter spacing: -0.5px, 0.75px
 
 --- 02 - COLORS
@@ -217,6 +217,7 @@ strong {
 
 .list-item {
   font-size: 1.8rem;
+  line-height: 1.2;
 
   display: flex;
   align-items: center;
