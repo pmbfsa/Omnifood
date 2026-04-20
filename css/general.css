@@ -22,7 +22,9 @@ Primary: #e67e22
 Tints: #eb984e #fae5d3 #fdf2e9
 Shades: #cf711f #5c320e
 Accents: #69db7c #a9e34b #ffd43b
-Greys: #aaa #888 #6F6F6F #555 #333
+Greys: #aaa #888 #767676¹ #6F6F6F² #555 #333
+¹(Lightess grey for #fff)
+²(Lightess grey for #fae5d3)
 
 --- 05 - SHADOWS
 
@@ -95,6 +97,10 @@ strong {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
