@@ -84,7 +84,7 @@
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 4.8rem 0 9.6rem;
 }
 
 .hero {
@@ -328,7 +328,7 @@
   background-color: #fae5d3;
 
   display: grid;
-  grid-template-columns: 55fr 45fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
@@ -361,7 +361,7 @@
 }
 
 .gallery {
-  padding: 1.6rem;
+  padding: 1.6rem 4.8rem 1.6rem 1.6rem;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
