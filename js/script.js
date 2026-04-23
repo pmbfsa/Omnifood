@@ -9,9 +9,16 @@ yearEl.textContent = currentYear;
 // Mobile nav button functionality
 const btnNavEl = document.querySelector('.btn-mobile-nav');
 const headerEl = document.querySelector('.header');
+const navLinkList = document.querySelectorAll('.main-nav-link');
 
 btnNavEl.addEventListener('click', (event) =>
   headerEl.classList.toggle('nav-open'),
+);
+
+navLinkList.forEach((navLink) =>
+  navLink.addEventListener('click', (event) =>
+    headerEl.classList.toggle('nav-open'),
+  ),
 );
 
 ///////////////////////////////////////////////////////////
