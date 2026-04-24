@@ -22,6 +22,29 @@ navLinkList.forEach((navLink) =>
 );
 
 ///////////////////////////////////////////////////////////
+// Sticky navigation
+const sectionHeroEl = document.querySelector('.section-hero');
+const obs = new IntersectionObserver(
+  (entries) => {
+    const entry = entries[0];
+
+    console.log(entry);
+    if (!entry.isIntersecting) {
+      document.body.classList.add('sticky');
+    } else {
+      document.body.classList.remove('sticky');
+    }
+  },
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: '-80px',
+  },
+);
+
+obs.observe(sectionHeroEl);
+
+///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
   var flex = document.createElement('div');
